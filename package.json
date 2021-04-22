@@ -1,0 +1,18 @@
+{
+  "name": "tailwinddemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "NODE_ENV=development postcss ./src/tailwind.css -o ./dist/tailwind.css -w",
+    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./dist/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
