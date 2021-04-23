@@ -32,6 +32,7 @@ module.exports = {
       orange: colors.orange,
       gray: colors.gray,
       white: colors.white,
+      indigo: colors.indigo,
     },
 
     // extend: overrides the default theme value, preserving unspecified values.
@@ -47,7 +48,9 @@ module.exports = {
   },
 
   variants: {
-    extend: {},
+    extend: {
+      divideColor: ['group-hover'],
+    }
   },
 
   plugins: [],

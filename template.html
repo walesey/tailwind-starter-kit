@@ -10,13 +10,31 @@
   <body class="bg-gray-400">
     <section class="container m-auto pt-20 px-4 flex flex-col items-center text-white text-center">
 
-      <div class="w-full p-8 bg-red-400 lg:bg-red-800 hover:bg-red-600 lg:hover:bg-orange-400">
-        <p class="text-4xl">Tailwind YEA</p>
+      <div class="w-full p-8 border-solid rounded-xl bg-red-400 lg:bg-red-800 hover:bg-red-600 lg:hover:bg-orange-400">
+        <h1 class="text-4xl">Tailwind</h1>
       </div>
 
-      <img class="mt-8" src="./assets/happy.png" />
+      <img class="mt-8 hover:animate-spin" src="./assets/happy.png" />
+
+      <div class="group bg-gray-800 p-4 mt-8">
+        <button class="group-hover:bg-orange-400 p-2 mr-4"> group hover 1 </button>
+        <button class="group-hover:bg-red-400 p-2 mr-4"> group hover 2 </button>
+        <button class="group-hover:bg-white p-2"> group hover 3 </button>
+      </div>
 
       <button id="button" class="btn mt-8">Click me</button>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 w-full">
+        <div class="border-2 border-indigo-600 p-2">1</div>
+        <div class="border-2 border-indigo-600 p-2">2</div>
+        <div class="border-2 border-indigo-600 p-2">3</div>
+        <div class="border-2 border-indigo-600 p-2">4</div>
+        <div class="border-2 border-indigo-600 p-2">5</div>
+        <div class="border-2 border-indigo-600 p-2">6</div>
+        <div class="border-2 border-indigo-600 p-2">7</div>
+        <div class="border-2 border-indigo-600 p-2">8</div>
+        <div class="border-2 border-indigo-600 p-2">9</div>
+      </div>
 
     </section>
 
